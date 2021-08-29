@@ -9,9 +9,10 @@ public class Game {
     Player[] players = new Player[Constants.SYMBOL_PLAYERS.length];
 
     public void play() {
-//        System.out.println("Jogando...");
         UI.printGameTitle();
 
-        UI.readInput("Nome do Jogador: ");
+        board.print();
+
+//        UI.readInput("Nome do Jogador: ");
     }
 }
