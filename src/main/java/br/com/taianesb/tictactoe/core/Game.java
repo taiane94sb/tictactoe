@@ -1,6 +1,7 @@
 package br.com.taianesb.tictactoe.core;
 
 import br.com.taianesb.tictactoe.Constants;
+import br.com.taianesb.tictactoe.ui.UI;
 
 public class Game {
 
@@ -9,5 +10,8 @@ public class Game {
 
     public void play() {
 //        System.out.println("Jogando...");
+        UI.printGameTitle();
+
+        UI.readInput("Nome do Jogador: ");
     }
 }
