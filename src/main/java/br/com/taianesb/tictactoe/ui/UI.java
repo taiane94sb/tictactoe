@@ -29,5 +29,4 @@ public class UI {
         String str = scanner.nextLine();
         return str;
     }
-
 }
