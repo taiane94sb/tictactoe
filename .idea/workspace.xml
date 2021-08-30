@@ -6,13 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="41df9b72-1277-466e-96cd-d71ba7d0d2ff" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/taianesb/tictactoe/core/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/taianesb/tictactoe/core/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/taianesb/tictactoe/core/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/taianesb/tictactoe/core/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/taianesb/tictactoe/core/Move.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/taianesb/tictactoe/core/Move.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/taianesb/tictactoe/core/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/taianesb/tictactoe/core/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/taianesb/tictactoe/ui/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/taianesb/tictactoe/ui/UI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/taianesb/tictactoe/core/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/taianesb/tictactoe/core/Board.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/taianesb/tictactoe/core/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/taianesb/tictactoe/core/Game.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
