@@ -7,6 +7,7 @@ public class Game {
 
     private Board board = new Board();
     private Player[] players = new Player[Constants.SYMBOL_PLAYERS.length];
+    private int currentPlayerIndex = 0;
 
     public void play() {
         UI.printGameTitle();
@@ -25,5 +26,20 @@ public class Game {
         UI.printText("O jogador + '" + name + "' vai usar o símbolo '" + symbol + "'");
 
         return player;
+    }
+
+    private Player nextPlayer() {
+        /* Outra forma de trazer o próximo jogador
+        currentPlayerIndex++;
+
+        if(currentPlayerIndex >= players.length) {
+            currentPlayerIndex = 0;
+        }
+
+        return players[currentPlayerIndex];
+         */
+
+        currentPlayerIndex = ((currentPlayerIndex + 1) % players.length);
+        return players[currentPlayerIndex];
     }
 }
